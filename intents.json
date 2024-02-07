@@ -1,0 +1,82 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["My pleasure", "You're Welcome"],
+     "context": [""]
+    },
+    {"tag": "query",
+     "patterns": ["What is AI?"],
+     "responses": ["Artificial intelligence is the computerization of human knowledge ","Artificial Intelligence"],
+     "context": [""]
+    },  {
+        "tag": "currency_exchange",
+        "patterns": ["What's the exchange rate for [currency] to Indian Rupee?", "Where can I exchange currency in India?", "Is there a currency exchange nearby?"],
+        "responses": ["I recommend checking a reliable currency exchange website or app for the most up-to-date rates. You can exchange currency at banks, authorized exchange offices, and some hotels in India."],
+        "context": [""]
+    },
+    {
+        "tag": "visa_information",
+        "patterns": ["Do I need a visa for India?", "How to apply for a tourist visa for India?", "What documents are required for an Indian visa application?"],
+        "responses": ["Visa requirements for India vary by nationality. It's best to check the official website of the Indian embassy or consulate in your country for the most accurate and updated information regarding Indian visa applications and required documents."],
+        "context": [""]
+    },
+    {
+        "tag": "local_transport",
+        "patterns": ["How to use public transport in Indian cities?", "Is there a metro system in Delhi?", "Taxi services in Mumbai"],
+        "responses": ["In Indian cities, public transport such as buses, metros, and auto-rickshaws are commonly used. Delhi and several other cities have metro systems. Taxis and ride-sharing services like Ola and Uber are widely available in cities like Mumbai."],
+        "context": [""]
+    },
+    {
+        "tag": "language_spoken",
+        "patterns": ["What is the primary language spoken in India?", "Common phrases in Hindi", "Translate English to Hindi"],
+        "responses": ["The primary languages spoken in India are Hindi and English. Some common Hindi phrases include 'Namaste' (Hello) and 'Dhanyavaad' (Thank you). For translations, you can use translation apps like Google Translate."],
+        "context": [""]
+    },
+    {
+        "tag": "cultural_etiquette",
+        "patterns": ["Cultural etiquettes in India", "Respecting local customs in Indian cities", "Dos and Don'ts in India"],
+        "responses": ["In India, it's important to greet with 'Namaste' and use your right hand for gestures. It's customary to remove your shoes before entering someone's home and to dress modestly, especially in religious places. Avoid public displays of affection and always ask for permission before taking photos of people."],
+        "context": [""]
+    },
+    {
+        "tag": "emergency_numbers",
+        "patterns": ["Emergency numbers in India", "Police contact in Delhi", "Medical emergency hotline in India"],
+        "responses": ["In case of emergencies in India, dial 112 for immediate assistance. Police can be reached at 100. For medical emergencies, call 108 for an ambulance."],
+        "context": [""]
+    },
+    {
+        "tag": "local_events",
+        "patterns": ["Upcoming events in Mumbai", "Festivals in India", "Local events this weekend in Delhi"],
+        "responses": ["There are several upcoming events in Mumbai, including [event1], [event2], and [event3]. India celebrates various festivals such as Diwali, Holi, and Eid-ul-Fitr. Check local event websites or social media pages for more details and tickets."],
+        "context": [""]
+    },
+    {
+        "tag": "travel_insurance",
+        "patterns": ["Is travel insurance necessary for India?", "Benefits of travel insurance in India", "Where can I purchase travel insurance for India?"],
+        "responses": ["Travel insurance can provide coverage for unexpected events such as trip cancellations, medical emergencies, and lost luggage. It's recommended for international travel, including India. You can purchase travel insurance from insurance providers or travel agencies."],
+        "context": [""]
+    },
+    {
+        "tag": "sightseeing_recommendations",
+        "patterns": ["Best places for sightseeing in Jaipur", "Historical sites in India", "Scenic spots in Goa"],
+        "responses": ["In Jaipur, some must-see sights include Amber Fort, City Palace, and Hawa Mahal. India is rich in historical sites like the Taj Mahal in Agra and Red Fort in Delhi. Goa offers scenic beaches like Baga Beach and Anjuna Beach."],
+        "context": [""]
+    },
+    {
+        "tag": "local_customs",
+        "patterns": ["What are some unique customs in India?", "Traditional ceremonies in Indian culture", "Gift-giving etiquette in Indian society"],
+        "responses": ["India has diverse customs. For example, it's customary to greet with 'Namaste' by pressing palms together. Traditional ceremonies like weddings are elaborate and colorful. When giving gifts, it's polite to present and receive them with both hands as a sign of respect."],
+        "context": [""]
+    }
+    
+]}
